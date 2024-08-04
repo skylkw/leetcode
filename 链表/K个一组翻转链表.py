@@ -25,7 +25,7 @@ class Solution:
         while n >= k:
             n -= k
             for _ in range(k):
-                nxt = cur.next
+                nx = cur.next
                 cur.next = pre
                 pre = cur
                 cur = nxt
